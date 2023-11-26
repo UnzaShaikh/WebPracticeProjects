@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body,html{
+   width: 100%;
+   height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+#heading{
+    margin-top: 90px;
+}
+
+#heading h1{
+    margin-left: 54px;
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: .6;
+    font-weight: lighter;
+}
+
+#heading #secondh1{
+    margin-left: 135px;
+}
+
+.blocktext{
+    width: fit-content;
+}
+
+.blocktext h5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#smallheadings{
+    margin-top: 100px;
+    padding-right: 30px;
+}
+
+#smallheadings h5{
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#herofooter{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 3%;
+    padding: 0 2.7vw;
+}
+
+#herofooter a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+
+#herofooter .circle{
+    width: 25px;
+    height: 25px;
+    background-color: #888;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
