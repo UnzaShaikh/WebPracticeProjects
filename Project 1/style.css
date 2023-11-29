@@ -114,8 +114,13 @@ body,html{
 }
 
 #section2 .elem{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     width: 100%;
     padding: 3.5vw 3vw;
+    padding-right: 0;
     border-top: 1px solid #888;
 }
 
@@ -128,4 +133,51 @@ body,html{
 
 .elem .elemlst{
     border-bottom: 1px solid #888;
+}
+
+.elem img{
+    height: 140%;
+    position: absolute;
+    z-index: 999;
+    /* opacity: 0; */
+    display: none;
+}
+
+#about{
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    background-color: black;
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+}
+
+#about img{
+    width: 200px;
+}
+
+#textabout{
+    width: 25rem;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
 }
