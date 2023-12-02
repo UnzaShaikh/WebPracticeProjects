@@ -144,7 +144,7 @@ body,html{
     color: #888;
 }
 
-#section2 .elem{
+.elem{
     position: relative;
     display: flex;
     align-items: center;
@@ -167,11 +167,12 @@ body,html{
 }
 
 .elem img{
+    opacity: 0;
     height: 140%;
     position: absolute;
+    pointer-events: none;
     z-index: 999;
-    /* opacity: 0; */
-    display: none;
+    transform: translate(-50%,-50%);
 }
 
 #about{
