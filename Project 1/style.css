@@ -50,6 +50,15 @@ body,html{
     color: white;
 }
 
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+
 #heading{
     margin-top: 90px;
 }
@@ -68,6 +77,9 @@ body,html{
 }
 
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
 }
 
@@ -78,6 +90,9 @@ body,html{
 }
 
 #smallheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 100px;
     padding-right: 30px;
 }
