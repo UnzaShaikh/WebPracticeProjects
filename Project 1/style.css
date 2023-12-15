@@ -160,6 +160,7 @@ body,html{
     font-size: 7.6vw;
     opacity: .7;
     font-weight: lighter;
+    cursor:default;
 }
 
 .elem .elemlst{
@@ -192,6 +193,7 @@ body,html{
 
 #textabout{
     width: 25rem;
+    cursor: default;
 }
 
 #textabout h5{
